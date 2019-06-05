@@ -5,11 +5,6 @@
 http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
 
 
-	<bean id="twitter" class="com.reactivestax.services.TwitterService" scope="prototype"></bean>
-	<bean id="email" class="com.reactivestax.services.EmailService" scope="prototype"></bean>
-	<bean id="sms" class="com.reactivestax.services.SMSService" scope="prototype"></bean>
-
-
 	<bean id="MyXMLAppWithEmailService" class="com.reactivestax.consumer.MyXMLApplication">
 		<property name="service" ref="email"></property>
 	</bean>
