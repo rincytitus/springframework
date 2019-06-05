@@ -1,0 +1,9 @@
+com/reactivestax/configuration/DIConfiguration.class
+com/reactivestax/consumer/MyApplication.class
+com/reactivestax/test/ClientXMLApplication.class
+com/reactivestax/consumer/MyXMLApplication.class
+com/reactivestax/test/ClientApplication.class
+com/reactivestax/services/SMSService.class
+com/reactivestax/services/EmailService.class
+com/reactivestax/services/MessageService.class
+com/reactivestax/services/TwitterService.class
